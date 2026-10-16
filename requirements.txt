@@ -3,5 +3,5 @@ gunicorn
 Pillow
 numpy
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.6.0
-torchvision==0.21.0
+torch==2.9.1+cpu
+torchvision==0.24.1+cpu
