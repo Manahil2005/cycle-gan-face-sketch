@@ -78,5 +78,9 @@ def convert():
     return jsonify(output=b64(out), detected='sketch' if sketch else 'real face',
                    target='real face' if sketch else 'sketch')
 
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok"}), 200
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
