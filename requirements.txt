@@ -3,3 +3,8 @@ torch
 torchvision
 numpy
 Pillow
+Flask
+gunicorn
+torch
+torchvision
+
